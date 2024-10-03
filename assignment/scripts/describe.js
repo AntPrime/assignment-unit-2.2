@@ -33,7 +33,7 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// 
+// Create a variable called name and set it 
 // 
 //
 //
@@ -41,7 +41,7 @@ if (number >= 2) {
 //
 //
 // OUTCOME:
-//
+//'How do you do?' is logged
 
 // CODE:
 /*
