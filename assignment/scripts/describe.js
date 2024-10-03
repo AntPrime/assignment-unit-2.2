@@ -33,12 +33,9 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// Create a variable called name and set it 
-// 
-//
-//
-//
-//
+// Create a variable called 'name' and set it to the value of 'Dane'. Create a conditional:
+// if the value of name is equal to 'Mary', set the value to 'Hi, Mary!'
+// if the name is not Mary, set the value to 'How do you do?'
 //
 // OUTCOME:
 //'How do you do?' is logged
@@ -59,9 +56,9 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// 
-// 
-// 
+// Create a variable called 'secret'. 
+// Create a variable called code and assign it to the value of 123. Create a conditional: 
+// if the value of 'code' is equal to 
 //
 // OUTCOME:
 //
