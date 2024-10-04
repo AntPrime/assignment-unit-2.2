@@ -61,7 +61,7 @@ if (name === 'Mary') {
 // if the value of 'code' is equal to 123, 'secret' equals 'super', and code equals itself times two. 
 // if 'code' equals more than 250, 'secret' equals 'duper'.
 // check what the value of secret is
-// OUTCOME:
+// OUTCOME: 'Super' is logged in the console, after renaming code to 'super', code would equal 246 which is less than 250.
 //
 
 // CODE:
@@ -87,11 +87,11 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// 
-// 
-// 
-//
-// OUTCOME:
+// create three variables - 'isStudent' equals true, 'age' equals 34, and 'zip' equals 55407.
+// Create a conditional that covers the following: if 'isStudent' equals true and zip is more than 80000, console log 'You are a student on the West Coast!'
+// if 'isStudent' equals false or 'age' is more than 30, console log 'What are your hobbies?'
+// if 'isStudent equals true, console log 'Welcome to Prime!', If it is not any of the conditionals, console log 'How about the weather?'.
+// OUTCOME: Console log shows 'Welcome to Prime!'
 //
 
 // CODE:
