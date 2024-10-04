@@ -36,7 +36,7 @@ if (number >= 2) {
 // Create a variable called 'name' and set it to the value of 'Dane'. Create a conditional:
 // if the value of name is equal to 'Mary', set the value to 'Hi, Mary!'
 // if the name is not Mary, set the value to 'How do you do?'
-//
+// check if the value is 'Hi Mary!' or 'How do you do?'
 // OUTCOME:
 //'How do you do?' is logged
 
@@ -56,10 +56,11 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// Create a variable called 'secret'. 
-// Create a variable called code and assign it to the value of 123. Create a conditional: 
-// if the value of 'code' is equal to 
-//
+// Create two variables - first variable is called 'secret'. 
+// Second variable called code and assign it to the value of 123. Create a conditional: 
+// if the value of 'code' is equal to 123, 'secret' equals 'super', and code equals itself times two. 
+// if 'code' equals more than 250, 'secret' equals 'duper'.
+// check what the value of secret is
 // OUTCOME:
 //
 
@@ -154,6 +155,7 @@ if (number >= 2) {
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
+// FIX - the value of color0ne and colorTwo are swapped. color0ne needs to be set to 'blue' and colorTwo needs to be set to 'red'.
 let mix = true;
 
 if (mix === true) {
@@ -174,7 +176,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// FIX - time should not be a constant variable. Rather than 'const' equaling 4, it should be 'let' time equal 4. 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -188,12 +190,12 @@ if (temp > 39 || time >= 4) {
 // We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
-
+  
 // CODE:
 /*
 let age = 21;
 const minAge = 21;
-
+// FIX - 'age' should be listed first in the if statement, to check if 'age' is greater than or equal to 'minAge'. If 'age' is equal or more than 'minAge', it should log 'enter' instead of 'no entry'. \
 if(minAge <= age) {
   console.log('no entry');
 } else {
