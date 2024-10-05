@@ -195,7 +195,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-// FIX - 'age' should be listed first in the if statement, to check if 'age' is greater than or equal to 'minAge'. If 'age' is equal or more than 'minAge', it should log 'enter' instead of 'no entry'. \
+// FIX -  'age' should be listed first in the if statement, to check if 'age' is greater than or equal to 'minAge'. If 'age' is equal or more than 'minAge', it should log 'enter' instead of 'no entry'. \
 if(minAge <= age) {
   console.log('no entry');
 } else {
