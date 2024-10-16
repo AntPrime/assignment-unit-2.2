@@ -161,6 +161,7 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+//Updated Fix -  if mix === True, colorOne AND colorTwo need to be set to purple. colorTwo is missing the assignment of 'Purple', considering mix = true.
 */
 
 // ------------------------------------------------------------ //
@@ -176,10 +177,10 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-// FIX - time should not be a constant variable. Rather than 'const' equaling 4, it should be 'let' time equal 4. 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+  // Updated fix - in the if statement, it currently has if temp is more than 30 OR  time is more than or equal to 4. Correction should so that instead of || it should be AND or &&. 
 */
 
 // ------------------------------------------------------------ //
